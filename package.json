@@ -1,0 +1,33 @@
+{
+  "name": "periscope-data-loader",
+  "version": "1.0.0",
+  "description": "Naïve node.js module to download query results from Periscope Data charts",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oakromulo/periscope-data-loader.git"
+  },
+  "keywords": [
+    "periscope",
+    "data",
+    "load",
+    "node",
+    "js"
+  ],
+  "author": "@oakromulo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oakromulo/periscope-data-loader/issues"
+  },
+  "homepage": "https://github.com/oakromulo/periscope-data-loader#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "htmlparser2": "^3.9.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "sleep-promise": "^8.0.1"
+  }
+}
