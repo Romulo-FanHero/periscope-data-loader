@@ -1,6 +1,6 @@
 {
   "name": "periscope-data-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Naïve node.js module to download query results from Periscope Data charts",
   "main": "index.js",
   "scripts": {
