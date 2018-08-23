@@ -54,7 +54,7 @@ const parseDashboard = params => new Promise((resolve, reject) => {
                     catch(e) {}
                     await sleep(params.retryDelay);
                 };
-            }, { concurrency: 1 }));
+            }, { concurrency: params.concurrency }));
         }
     }, { decodeEntities: true });
     parser.parseComplete(params.body);
